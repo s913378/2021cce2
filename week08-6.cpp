@@ -13,11 +13,11 @@ int main()
          strcpy( names[i], name );
          grades[i] = grade;
      }
-    ///FILE * fout = fopen("file.txt", "w+" );
+    FILE * fout = fopen("file.txt", "w+" );
      for(int i=0; i<3; i++){
 
           printf("%s %d\n", names[i],grades[i] );
-          ///fprintf(fout, "%s %d\n", names[i], grades[i]);
+          fprintf(fout, "%s %d\n", names[i], grades[i]);
      }
 
 }
